@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	padding: 0;
+	transition: .4s all ease;
+}
+
+header {
+	transition: .4s all ease;
+}
+
+.lightMode header {
+	background-color: #f8f9fe;
+}
+
+.pb- {
+	padding-bottom: 150px;
+}
+
+.social-media-card-2 {
+	background: #f0f3fa;
+}
+
+.darkMode .social-media-card-2 {
+	background: #252b43;
+}
+
+.social-media-card-d {
+	border: none;
+}
+
+.social-media-card {
+	border: none;
+	border-top: 5px solid;
+}
+
+.ml-190 {
+	margin-left: 190px;
+}
+
+.lightMode .social-media-card {
+	background-color: #f0f3fa;
+}
+
+.lightMode .social-media-card-d {
+	background-color: #f0f3fa;
+}
+
+.darkMode .social-media-card {
+	background: #252b43;
+}
+
+.darkMode .social-media-card-d {
+	background: #252b43;
+}
+
+.darkMode header {
+	background: #20222f;
+}
+
+.darkMode .color {
+	color: #fff;
+}
+
+.darkMode {
+	background-color: #1d2029;
+}
+
+.darkMode h3 {
+	color: #fff;
+}
+
+
+/*.col-lg-3 {
+	max-width: 23% !important;........// do not tamper with columns //......
+}*/
+
+.my-4 h3 {
+	font-weight: bolder;
+	font-size: 60px;
+	margin: 0;
+}
+
+.my-4 p {
+	margin: 0;
+}
+
+.border-color-b {
+	border-top-color: #188ff5;
+}
+
+.border-color-bb {
+	border-top-color: #1ba2f4;
+}
+
+.bg {
+	background-image: linear-gradient(to right, #ffc169, #f74689);
+	height: 5px;
+}
+
+.border-top-color-r {
+	border-top-color: #ca002a;
+}
+
+.txt span {
+	font-weight: bold;
+}
+
+.txt- {
+	font-size: 13px;
+}
+
+.mr- {
+	margin-right: 2px;
+}
+
+.mt-- {
+	margin-top: -120px;
+}
+
+.txt-weight {
+	font-weight: bold;
+	color: #6d7083;
+}
+
+.txt-color {
+	color: #656877;
+}
+
+.big h3 {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 55px;
+	height: 25px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: .4s;
+}
+
+.slider .round {
+	border-radius: 34px;
+}
+
+@media screen and (max-width: 375px) {
+	.section-border {
+		border: 1px solid #37394e;
+		border-radius: 5px;
+		margin: 15px auto 10px auto;
+	}
+}
+
+.slider .round:before {
+	border-radius: 50%;
+}
+
+input:checked + .slider {
+	background-image: linear-gradient(to right, #379bd6, #40c99b);
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 17px;
+	width: 20px;
+	left: 4px;
+	bottom: 4px;
+	border-radius: 50%;
+	background-color: #fff;
+	transition: .4s;
+}
+
+
+input:checked + .slider:before {
+	-webkit-transform: translate(26px);
+	-ms-transform: translate(26px);
+	transform: translate(26px);
+}
+
